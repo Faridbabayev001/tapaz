@@ -5,12 +5,15 @@ This is a spider for [Tap.az](http://tap.az/) written in Node.
 ## Install
 
 ```sh
-npm install tapaz --save
+npm install tapazz --save
 ```
 
 ## Features
 
 *   Get Shop List
+*   Get Shop
+*   Get Category List
+*   Get Category
 *   Get Item Detail
 
 ## Usage
