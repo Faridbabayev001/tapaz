@@ -25,6 +25,36 @@ tapaz.Shop.all().then(function(shops) {
 });
 ```
 
+### Get Shop
+
+```javascript
+var tapaz = require('tapaz');
+
+tapaz.Shop.get(url).then(function(shops) {
+    console.log(shops)
+});
+```
+
+### Get [Category](http://tap.az) List
+
+```javascript
+var tapaz = require('tapaz');
+
+tapaz.Category.all().then(function(shops) {
+    console.log(shops)
+});
+```
+
+### Get Category
+
+```javascript
+var tapaz = require('tapaz');
+
+tapaz.Category.get(url).then(function(shops) {
+    console.log(shops)
+});
+```
+
 ### Get Good Detail
 
 ```javascript
