@@ -21,7 +21,7 @@ npm install tapazz --save
 ### Get [Shop](http://tap.az/shops) List
 
 ```javascript
-var tapaz = require('tapaz');
+var tapaz = require('tapazz');
 
 tapaz.Shop.all().then(function(shops) {
     console.log(shops)
@@ -31,37 +31,37 @@ tapaz.Shop.all().then(function(shops) {
 ### Get Shop
 
 ```javascript
-var tapaz = require('tapaz');
+var tapaz = require('tapazz');
 
-tapaz.Shop.get(url).then(function(shops) {
-    console.log(shops)
+tapaz.Shop.get(url).then(function(shop) {
+    console.log(shop)
 });
 ```
 
 ### Get [Category](http://tap.az) List
 
 ```javascript
-var tapaz = require('tapaz');
+var tapaz = require('tapazz');
 
-tapaz.Category.all().then(function(shops) {
-    console.log(shops)
+tapaz.Category.all().then(function(categories) {
+    console.log(categories)
 });
 ```
 
 ### Get Category
 
 ```javascript
-var tapaz = require('tapaz');
+var tapaz = require('tapazz');
 
-tapaz.Category.get(url).then(function(shops) {
-    console.log(shops)
+tapaz.Category.get(url).then(function(category) {
+    console.log(category)
 });
 ```
 
 ### Get Good Detail
 
 ```javascript
-var tapaz = require('tapaz');
+var tapaz = require('tapazz');
 
 tapaz.Detail(url).then(function (detail) {
     console.log(detail);

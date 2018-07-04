@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Faridbabayev001/tapaz.git"
   },
+  "bugs": {
+    "url": "https://github.com/Faridbabayev001/tapaz/issues"
+  },
   "author": "Farid Babayev",
   "license": "ISC",
   "keywords": [
